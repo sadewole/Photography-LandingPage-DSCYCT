@@ -54,15 +54,18 @@ h1 {
 @media(max-width: 600px) {
     .container {
         flex-direction: column;
+        /*Stack container at small screen*/
     }
 
     .flex-left {
         flex: 0 0 50%;
         max-width: 100%;
+        /*Increase width to full screen at small screen*/
     }
 
     .flex-right {
         flex: 0 0 50%;
         max-width: 100%;
+        /*Increase width to full screen at small screen*/
     }
 }
